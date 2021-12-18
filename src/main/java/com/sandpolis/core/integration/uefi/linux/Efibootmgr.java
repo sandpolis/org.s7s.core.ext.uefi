@@ -7,11 +7,10 @@
 //  as published by the Mozilla Foundation.                                   //
 //                                                                            //
 //============================================================================//
-package com.sandpolis.core.agent.uefi.linux;
+package com.sandpolis.core.integration.uefi.linux;
 
 public class Efibootmgr {
 
-	@Override
 	public boolean isEfiMode() {
 		// Check for mounted efivars
 
